@@ -71,25 +71,24 @@ if __name__ == "__main__":
     #     base_url = "https://www.mzitu.com/mm/page/{}/".format(str(page))
     #     mz_spider(base_url)
 
-    my_headers = [
-        "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36",
-        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36",
-        "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:30.0) Gecko/20100101 Firefox/30.0",
-        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.75.14 (KHTML, like Gecko) Version/7.0.3 Safari/537.75.14",
-        "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Win64; x64; Trident/6.0)",
-        'Mozilla/5.0 (Windows; U; Windows NT 5.1; it; rv:1.8.1.11) Gecko/20071127 Firefox/2.0.0.11',
-        'Opera/9.25 (Windows NT 5.1; U; en)',
-        'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727)',
-        'Mozilla/5.0 (compatible; Konqueror/3.5; Linux) KHTML/3.5.5 (like Gecko) (Kubuntu)',
-        'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.0.12) Gecko/20070731 Ubuntu/dapper-security Firefox/1.5.0.12',
-        'Lynx/2.8.5rel.1 libwww-FM/2.14 SSL-MM/1.4.1 GNUTLS/1.2.9',
-        "Mozilla/5.0 (X11; Linux i686) AppleWebKit/535.7 (KHTML, like Gecko) Ubuntu/11.04 Chromium/16.0.912.77 Chrome/16.0.912.77 Safari/535.7",
-        "Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:10.0) Gecko/20100101 Firefox/10.0 "]
+
     headers = {
-        "User-Agent": random.choice(my_headers),
-        'Upgrade - Insecure - Requests': "1"
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Language": "zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2",
+        "Connection": "keep-alive",
+        "Host": "i.meizitu.net",
+        'Upgrade - Insecure - Requests': "1",
+
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0;Win64;x64;rv:64.0) Gecko/20100101 Firefox/64.0"
+        # "User-Agent": "User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36",
+        # 'Upgrade - Insecure - Requests': "1"
     }
-    rsp = requests.get(url ="https://i.meizitu.net/2014/03/20140307jp01.jpg",headers=headers)
+    proxies = {
+        "http": "110.52.235.85:9999"
+    }
+    rsp = requests.get(url = "https://i.meizitu.net/2019/01/06a05.jpg", headers =headers)
     print(rsp.status_code)
-    with open("666", "wb") as f:
+    # print(rsp.text)
+    with open("666.jpg", "wb") as f:
         f.write(rsp.content)

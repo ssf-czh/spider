@@ -23,15 +23,13 @@ import urllib
 
 # 利用request使用代理服务
 import requests
-proxy = "119.101.114.125:9999"
-
 proxies = {
-    "http": "http://" + proxy,
-    "https": "https://" + proxy
+    "http": "110.52.235.85:9999"
 }
 
 try:
-    rsp = requests.get("http://httpbin.org/get", proxies= proxies)
+    print(555)
+    rsp = requests.get("http://httpbin.org/get",proxies= proxies)
     print(type(rsp.text))
     print(rsp.text)
 except Exception as e:
@@ -39,12 +37,12 @@ except Exception as e:
     print(e)
 
 
-# 利用selenium进行代理服务
-from selenium import webdriver
-
-proxy = "119.101.114.125:9999"
-chrom_options = webdriver.ChromeOptions()
-chrom_options.add_argument("--proxy-server=http://" + proxy)
-browser = webdriver.Chrome(chrome_options=chrom_options)
-# browser = webdriver.Chrome()
-browser.get("http:httpbin.org/get")
+# # 利用selenium进行代理服务
+# from selenium import webdriver
+#
+# proxy = "119.101.114.125:9999"
+# chrom_options = webdriver.ChromeOptions()
+# chrom_options.add_argument("--proxy-server=http://" + proxy)
+# browser = webdriver.Chrome(chrome_options=chrom_options)
+# # browser = webdriver.Chrome()
+# browser.get("http:httpbin.org/get")

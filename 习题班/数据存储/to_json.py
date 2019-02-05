@@ -1,15 +1,21 @@
-'''
-
-str = '[{"username":"dachong", "age":"18"}]'
-print(type(str))
-json_str = json.dumps(str, ensure_ascii=False)
-print(json_str, type(json_str))
-
-new_str = json.loads(json_str)
-print(new_str,type(new_str))
-'''
 import json,requests
 from bs4 import  BeautifulSoup
+
+# str = '[{"username":"dachong", "age":"18"}]'
+# print(type(str))
+# json_str = json.dumps(str, ensure_ascii=False)
+# print(json_str, type(json_str))
+#
+# new_str = json.loads(str)
+# print(new_str,type(new_str))
+#
+# with open("temp.json","w") as f:
+#     json.dump(json.loads(str),fp=f,indent=4)
+# # sss=[]
+# # with open("temp.json","r") as f:
+# #     sss=json.load(f)
+# # print(sss)
+# https://blog.csdn.net/anthony_1223/article/details/82259286
 
 headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
