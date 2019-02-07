@@ -1,5 +1,6 @@
 '''
 爬取妹子图
+xpath
 '''
 import requests,os
 from lxml import etree

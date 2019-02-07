@@ -28,7 +28,7 @@ import pymysql
 #     # 是通过游标实现的
 #     cursor = db.cursor()
 #     # sql语句都是用过cursor.execute()来执行的
-#     # cursor.execute("f exists TEST drop table i")#如果创业板在test表就删除它
+#     # cursor.execute("if exists TEST drop table i")#如果创业板在test表就删除它
 #     # 预处理语句
 #     # 创建表示有格式要求的
 #     sql = '''CREATE TABLE test(

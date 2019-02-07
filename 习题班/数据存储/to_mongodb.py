@@ -34,7 +34,7 @@ import pymongo
 
 # 插入数据
 
-
+#
 # client = pymongo.MongoClient(host="localhost", port=27017)
 # db = client.ssf  #如果没有这个数据库 就默认创建一个数据库 类似于字典
 # print(db)
@@ -47,7 +47,7 @@ import pymongo
 # posts = db.posts #创建一个集合对象
 # res = posts.insert_one(info)
 # print(res, res.inserted_id)
-
+#
 # client = pymongo.MongoClient(host="localhost", port=27017)
 # # 获得数据库
 # db = client.ssf
