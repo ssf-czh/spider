@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ac906ca6-9016-4de7-bf69-678c9eb9a672" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Spider_kuangjia/Data_in.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spider_kuangjia/Html_parse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spider_kuangjia/Manage_Main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spider_kuangjia/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spider_kuangjia/html_download.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spider_kuangjia/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spider_kuangjia/url_manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Xicidaili/Xicidaili/spiders/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images360/images360/spiders/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scrapydownloadertest/scrapydownloadertest/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xicidaili/xicidaili/DaiLI_pipeline/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xicidaili/xicidaili/DaiLI_pipeline/mysql.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selenium_/jd_spider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selenium_/js_test_01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selenium_/test_01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selenium_/test_02_douban.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tkinter_test/music_163/十一种美丽.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tkinter_test/music_163/微光.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tkinter_test/music_163/拥抱.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tkinter_test/music_163/日光.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tkinter_test/music_163/星辰.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tkinter_test/music_163/流年.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tkinter_test/music_163/热情.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tkinter_test/music_163/疼爱.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tkinter_test/music_163/给你给我.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tkinter_test/music_163/美妙生活.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tkinter_test/music_163/阳光空气.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tkinter_test/music_163_tkinter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/58同城_mysql.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/ApiDemo/MongoDB_API.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/ApiDemo/Mysql_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/bilibili_you_get.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/BaiduMap_mysql/MysqlAPI.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/BaiduMap_mysql/temp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/BaiduMap_mysql/test01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/BaiduMap_mysql/test02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/BaiduMap_mysql/test03.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/aibao_video/E3D震撼大气粒子盛典倒计时AE模板.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/aibao_video/中国风创意三维开门红金猪拜年片头AE模板.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/aibao_video/五彩缤纷炫酷时尚动感粒子光束led大屏.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/aibao_video/企业发展历程图文展示ae模板.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/aibao_video/企业发展时间线介绍图文展示动画AE模板.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/aibao_video/企业部门新春拜年祝福AE模板.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/aibao_video/优雅高端logo粒子汇聚片头AE模板.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/aibao_video/光线切割转场视差图片展示AE模板.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/aibao_video/党政金色字十九大党政政府工作片头AE模板.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/aibao_video/唯美大气风两款金属颜色文字AE模板.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/aibao_video/喜庆中国红春节新春相册AE模板.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/aibao_video/喜庆节日动态字幕条AE模板.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/aibao_video/城市建设飞速崛起.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/aibao_video/大气中国风粒子消散字幕AE模板.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/aibao_video/大气企业宣传科技感文字照片展示.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/aibao_video/大气金色粒子红色党政片头AE模板.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/aibao_video/大气金色粒子颁奖舞台背景视频素材.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/aibao_video/干净整洁企业图文展示ae模板.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/aibao_video/扬正气树新风党政金色字片头AE模板.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/aibao_video/抖音爆款网红倒计时10秒简约图文展示模板.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/aibao_video/新春拜年ae模板视频.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/aibao_video/春节主题的快闪片头AE模板.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/aibao_video/春节企业拜年ae模板视频.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/aibao_video/清新小蓝调个人家庭相册展示AE模板.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/aibao_video/灯亮日出走出黑暗迎接光明重新起航实拍.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/aibao_video/点线科技plexus字幕字幕条人名条.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/aibao_video/科技企业宣传板块点线连接展示AE模板.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/aibao_video/科技感竖版字幕条采访人名条节目单AE模板.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/aibao_video/简约科技感新闻字幕条人名条节目单AE模板.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/aibao_video/红金粒子动态背景视频素材.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/aibao_video/蓝色科技数据信息图表展示AE模板.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/aibao_video/蓝色科技风多样式酷炫出字效果AE模板.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/aibao_video/蓝色震撼图片汇聚开场片头AE模板.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/aibao_video/酷炫渐变科技风字幕条AE模板.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/aibao_video/金猪贺岁祝福视频PR模.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/aibao_video/金色字体粒子光线政府机关晚会字幕条人名条.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/aibao_video/金色粒子logo片头.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/aibao_video/震撼动感快闪商务图文展示红色大气Pr模板.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/aibao_video/高清唯美舞台歌曲动态背景素材.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/aibao_video/高科技蓝色企业宣传图片展示.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ajax_imag/pexels-photo-1036372.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ajax_imag/pexels-photo-1099816.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ajax_imag/pexels-photo-110437.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ajax_imag/pexels-photo-1112598.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ajax_imag/pexels-photo-1112796.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ajax_imag/pexels-photo-1141853.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ajax_imag/pexels-photo-1164674.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ajax_imag/pexels-photo-1181210.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ajax_imag/pexels-photo-1215831.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ajax_imag/pexels-photo-1250643.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ajax_imag/pexels-photo-1253718.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ajax_imag/pexels-photo-1268129.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ajax_imag/pexels-photo-1285625.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ajax_imag/pexels-photo-1319805.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ajax_imag/pexels-photo-1356300.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ajax_imag/pexels-photo-1374542.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ajax_imag/pexels-photo-1375807.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ajax_imag/pexels-photo-1417651.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ajax_imag/pexels-photo-1430675.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ajax_imag/pexels-photo-1450082.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ajax_imag/pexels-photo-1451474.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ajax_imag/pexels-photo-1469902.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ajax_imag/pexels-photo-1567355.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ajax_imag/pexels-photo-1612462.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ajax_imag/pexels-photo-1639949.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ajax_imag/pexels-photo-1645635.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ajax_imag/pexels-photo-1649094.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ajax_imag/pexels-photo-1649778.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ajax_imag/pexels-photo-1656579.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ajax_imag/pexels-photo-1656584.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ajax_imag/pexels-photo-1659435.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ajax_imag/pexels-photo-1729794.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ajax_imag/pexels-photo-1837609.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ajax_imag/pexels-photo-1844251.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ajax_imag/pexels-photo-1845275.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ajax_imag/pexels-photo-1849115.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ajax_imag/pexels-photo-1850138.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ajax_imag/pexels-photo-1850269.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ajax_imag/pexels-photo-1851164.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ajax_imag/pexels-photo-1853060.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ajax_imag/pexels-photo-1853371.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ajax_imag/pexels-photo-1855568.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ajax_imag/pexels-photo-1856422.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ajax_imag/pexels-photo-1858175.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ajax_imag/pexels-photo-1858250.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ajax_imag/pexels-photo-1858408.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ajax_imag/pexels-photo-1858493.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ajax_imag/pexels-photo-1859622.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ajax_imag/pexels-photo-1860262.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ajax_imag/pexels-photo-1867184.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ajax_imag/pexels-photo-212942.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ajax_imag/pexels-photo-246320.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ajax_imag/pexels-photo-296282.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ajax_imag/pexels-photo-408951.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ajax_imag/pexels-photo-545063.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ajax_imag/pexels-photo-573299.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ajax_imag/pexels-photo-697243.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ajax_imag/pexels-photo-704971.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ajax_imag/pexels-photo-714051.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ajax_imag/pexels-photo-808466.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ajax_imag/pexels-photo-824572.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ajax_imag/pexels-photo-859057.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ajax_imag/pexels-photo-872795.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ajax_imag/pexels-photo-921319.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ajax_imag/pexels-photo-931911.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ajax_imag/pexels-photo-969679.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ajax_imag/pexels-photo-972391.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/baotuwang_mp4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/hupu_mongo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/lagou_spider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ximalaya_music.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ximalaya_music/2018 晚安.m4a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ximalaya_music/2019 念一个人.m4a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ximalaya_music/【圣诞特刊】 一个人的平安夜 主播：灵兮.m4a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ximalaya_music/【女生翻唱】天亮前说再见.m4a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ximalaya_music/【小串烧】城市之中.m4a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ximalaya_music/【小串烧】曾一起听过的情歌.m4a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ximalaya_music/【翻唱】口是心非~丫蛋蛋,崔铭嘉.m4a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ximalaya_music/下一次，天亮.m4a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ximalaya_music/世界突然变得很安静.m4a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ximalaya_music/二零一八大大大串烧.m4a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ximalaya_music/余香.m4a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ximalaya_music/你是我患得患失的梦，我是你可有可无的人.m4a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ximalaya_music/像鱼，忘了海的味道.m4a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ximalaya_music/再回首 时光流逝指缝间.m4a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ximalaya_music/别让爱你的人丢了.m4a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ximalaya_music/小酒馆故事~女孩.m4a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ximalaya_music/就老去吧.孤独别醒来.m4a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ximalaya_music/忘了吧 从前.m4a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ximalaya_music/我为了你失眠 也为了你改变.m4a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ximalaya_music/我的莉莉安和董小姐.m4a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ximalaya_music/找不到坚强的理由~灵兮.m4a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ximalaya_music/是谁的心 孤单的留下.m4a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ximalaya_music/特别推广：一个人的千军万马--叶舟.m4a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ximalaya_music/现在，你睡了吗.m4a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ximalaya_music/直到熬夜成瘾 孤独是我的命.m4a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ximalaya_music/离开我你快乐吗.m4a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ximalaya_music/翻唱·起风了.m4a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ximalaya_music/老地方.m4a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ximalaya_music/这城市那么空.m4a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据存储/test/ximalaya_music/酒，QI~杯 QI~杯的干.m4a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/pacong.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/pacong.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../v17.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../v17.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cnblog_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/../cnblog_spider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../数据存储/test/Ajax_ybjz.py" beforeDir="false" afterPath="$PROJECT_DIR$/../数据存储/test/Ajax_ybjz.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/scrapy_spider$XiCidaili.coverage" NAME="XiCidaili Coverage Results" MODIFIED="1553308039999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Xicidaili/Xicidaili/spiders" />
+    <SUITE FILE_PATH="coverage/scrapy_spider$Xicidaili.coverage" NAME="Xicidaili Coverage Results" MODIFIED="1553311740834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xicidaili/xicidaili/spiders" />
+    <SUITE FILE_PATH="coverage/scrapy_spider$main.coverage" NAME="main Coverage Results" MODIFIED="1553308042334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Xicidaili/Xicidaili/spiders" />
+    <SUITE FILE_PATH="coverage/scrapy_spider$mysql.coverage" NAME="mysql Coverage Results" MODIFIED="1553328964707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xicidaili/xicidaili/DaiLI_pipeline" />
+    <SUITE FILE_PATH="coverage/scrapy_spider$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1553313033214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xicidaili/xicidaili/spiders" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="405298866">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.0" value="3" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="csv" value="1" />
+          <entry key="json" value="2" />
+          <entry key="log" value="1" />
+          <entry key="py" value="14" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JSON" value="2" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Python" value="14" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="2088" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="2088" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/xicidaili/xicidaili/DaiLI_pipeline/mysql.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+              <folding>
+                <marker date="1553328732132" expanded="true" signature="374:381" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>DEF</find>
+      <find>user</find>
+      <find>H</find>
+      <find>tr class=</find>
+      <find>C</find>
+      <find>DOWNLOAD</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Xicidaili/Xicidaili/settings.py" />
+        <option value="$PROJECT_DIR$/Xicidaili/Xicidaili/spiders/main.py" />
+        <option value="$PROJECT_DIR$/Xicidaili/Xicidaili/spiders/XiCidaili.py" />
+        <option value="$PROJECT_DIR$/xicidaili/xicidaili/items.py" />
+        <option value="$PROJECT_DIR$/xicidaili/xicidaili/spiders/main.py" />
+        <option value="$PROJECT_DIR$/xicidaili/xicidaili/spiders/Xicidaili.py" />
+        <option value="G:/Anaconda3/envs/spider_scrapy/Lib/site-packages/scrapy/exporters.py" />
+        <option value="$PROJECT_DIR$/xicidaili/xicidaili/settings.py" />
+        <option value="$PROJECT_DIR$/xicidaili/xicidaili/DaiLI_pipeline/mysql.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1001" />
+    <option name="y" value="142" />
+    <option name="width" value="910" />
+    <option name="height" value="825" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="scrapy_spider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scrapy_spider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scrapy_spider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scrapy_spider" type="462c0819:PsiDirectoryNode" />
+              <item name="xicidaili" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scrapy_spider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scrapy_spider" type="462c0819:PsiDirectoryNode" />
+              <item name="xicidaili" type="462c0819:PsiDirectoryNode" />
+              <item name="xicidaili" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.mysql">
+    <configuration name="XiCidaili" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="scrapy_spider" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Xicidaili/Xicidaili/spiders" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Xicidaili/Xicidaili/spiders/XiCidaili.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Xicidaili" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="scrapy_spider" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xicidaili/xicidaili/spiders" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xicidaili/xicidaili/spiders/Xicidaili.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="scrapy_spider" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xicidaili/xicidaili/spiders" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xicidaili/xicidaili/spiders/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="scrapy_spider" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Xicidaili/Xicidaili/spiders" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Xicidaili/Xicidaili/spiders/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mysql" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="scrapy_spider" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xicidaili/xicidaili/DaiLI_pipeline" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xicidaili/xicidaili/DaiLI_pipeline/mysql.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.XiCidaili" />
+      <item itemvalue="Python.main (1)" />
+      <item itemvalue="Python.Xicidaili" />
+      <item itemvalue="Python.mysql" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.mysql" />
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.Xicidaili" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.XiCidaili" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ac906ca6-9016-4de7-bf69-678c9eb9a672" name="Default Changelist" comment="" />
+      <created>1553307620572</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553307620572</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15683647" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28936172" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32907802" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32907802" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/xicidaili/xicidaili/spiders/xicidailis.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xicidaili/xicidaili/spiders/xicidailis.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xicidaili/xicidaili/spiders/Xicidaili.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xicidaili/xicidaili/spiders/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/Anaconda3/envs/spider_scrapy/Lib/site-packages/scrapy/exporters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="205" column="40" lean-forward="true" selection-start-line="205" selection-start-column="40" selection-end-line="205" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xicidaili/xicidaili/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xicidaili/xicidaili/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xicidaili/xicidaili/spiders/my.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://G:/Anaconda3/envs/spider_scrapy/Lib/site-packages/pymysql/connections.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="182" column="49" lean-forward="true" selection-start-line="182" selection-start-column="49" selection-end-line="182" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/Anaconda3/envs/spider_scrapy/Lib/site-packages/pymysql/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="93" column="19" selection-start-line="93" selection-start-column="19" selection-end-line="93" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xicidaili/xicidaili/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="102" column="24" lean-forward="true" selection-start-line="102" selection-start-column="24" selection-end-line="102" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/Anaconda3/Lib/site-packages/pymysql/err.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="102" column="13" lean-forward="true" selection-start-line="102" selection-start-column="13" selection-end-line="102" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xicidaili/xicidaili/DaiLI_pipeline/mysql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+          <folding>
+            <marker date="1553328732132" expanded="true" signature="374:381" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

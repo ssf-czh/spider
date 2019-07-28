@@ -11,7 +11,7 @@ def cnblogs_spider(url):
         "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
     }
     rsp = requests.get(url,headers= headers)
-    # print(rsp.text)
+    print(rsp.text)
     soup = BeautifulSoup(rsp.text,"lxml")
     items = soup.select("div[class='post_item']")
     # print(body)

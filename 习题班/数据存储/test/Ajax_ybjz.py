@@ -48,7 +48,7 @@ def download_img(url):
         f.write(rsp.content)
 
 if __name__ == "__main__":
-    urls = ["https://www.pexels.com/?page={}".format(str(i)) for i in range(1, 2)]
+    urls = ["https://www.pexels.com/?page={}".format(str(i)) for i in range(1, 5)]
     for url in urls:
         # print(1)
         time.sleep(1)
